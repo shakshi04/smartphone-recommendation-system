@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compare.css"> <!-- Link to your CSS file -->
+    <title>Phone Comparison</title>
+</head>
+<body>
+<div class="container">
+    <h1>Compare Phones</h1>
+    
+    <div class="select-container">
+        <select id="phone1Select">
+            <option value="">Select Phone 1</option>
+        </select>
+        <select id="phone2Select">
+            <option value="">Select Phone 2</option>
+        </select>
+        <button id="compareButton">Compare</button>
+    </div>
+
+    <div class="comparisonResultContainer" id="comparisonResultContainer">
+        <table id="comparisonTable">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Phone 1</th>
+                    <th>Phone 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data rows will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="compare.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
